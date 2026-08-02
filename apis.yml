@@ -1,7 +1,16 @@
 aid: svbtle
 name: Svbtle
-description: Svbtle is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Svbtle is a minimalist publishing and blogging platform designed to work the
+  way your brain does, pairing a distraction-free Markdown editor with a simple
+  dashboard for organizing drafts, developing ideas, and publishing to a clean
+  reading experience. Created by Dustin Curtis and operated by Neutral
+  Corporation, Svbtle emphasizes longevity through its "Forever Promise" that
+  published writing remains permanently accessible online. Svbtle is a
+  subscription-based writer's network rather than a developer platform: as of
+  this enrichment pass it publishes no public API, developer portal, OpenAPI
+  definition, OAuth authorization server, or .well-known metadata, and each blog
+  is exposed only as a human-readable site with an RSS feed.
 url: https://raw.githubusercontent.com/api-evangelist/svbtle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,62 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://lightning.svbtle.com/cargo/brand/logotype-97974b81d9d86e7f59024482c08c9ebd4b1fd72196e4a670f76857404becb1f1.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Blogging
+- Publishing
+- Content
+- Writing
+- Blog Platform
+- Media
 apis: []
+common:
+- name: Website
+  type: Website
+  url: https://svbtle.com
+- name: About
+  type: About
+  url: https://svbtle.com/about
+- name: Support
+  type: Support
+  url: https://svbtle.com/support
+- name: Sign Up
+  type: SignUp
+  url: https://svbtle.com/signup
+- name: Login
+  type: Login
+  url: https://svbtle.com/login
+- name: Terms of Service
+  type: TermsOfService
+  url: https://svbtle.com/terms
+- name: Privacy Policy
+  type: PrivacyPolicy
+  url: https://svbtle.com/privacy
+- name: RSS Feed
+  type: RSS
+  url: https://svbtle.com/feed
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
