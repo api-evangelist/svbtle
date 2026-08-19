@@ -30,7 +30,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://lightning.svbtle.com/cargo/brand/logotype-97974b81d9d86e7f59024482c08c9ebd4b1fd72196e4a670f76857404becb1f1.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
